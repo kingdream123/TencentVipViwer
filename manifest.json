@@ -1,0 +1,21 @@
+{
+  "name": "vip看视频",
+  "version": "1.0.2",
+  "description": "免费观看各大各大平台vip视频",
+  "icons": {
+    "48": "vippass.png",
+    "128": "vippass.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "vippass.png",
+    "default_title": "vip看视频-小蚂蚁"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "manifest_version": 2
+}
